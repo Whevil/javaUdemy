@@ -17,6 +17,10 @@ public class SubCadenas {
         System.out.println("indice 2  == " + cadena1.lastIndexOf("mundo"));
         System.out.println("para cadena no encontrada  " + cadena1.indexOf("java"));
         System.out.println("last index" + cadena1.lastIndexOf("mundo"));
+        System.out.println(" reemplazar cadena " + cadena1.replace("amigos mios", "buenas a todos guapisimos"));
+        cadena1 = "nuevo mensaje";
+        System.out.println(cadena1);
+
     }
     
     
